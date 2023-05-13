@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
-import { Num } from './num';
+// import { Num } from './num';
 // import { Google } from './google';
 // import { Search } from './search';
-
+// import { Multi } from './multipllist';
+import { Inp1 } from './multiinp';
 
 const Border=()=>{
   return(
@@ -14,7 +15,8 @@ const Border=()=>{
 <Google name='Email' color='purple' font='20px'/>
 <Search/> */}
 
-<Num/>
+
+<Inp1/>
 
     </div>
   )
